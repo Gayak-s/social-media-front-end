@@ -1,0 +1,30 @@
+/* {
+     background-image: url(img_flwr.gif), url(paper.gif);
+     background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+} */
+.heading{
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    margin-top: 100px;  
+}
+/* .parent{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.468312324929972) 0%, rgba(201,226,255,1) 100%);
+    margin: 0;
+    padding: 0;
+} */
+.signup{
+    text-decoration: none;
+    color: rgb(0, 106, 255);
+    font-size: 15px;
+}
+.signup_para{
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+.copyright{
+    color: rgba(0, 0, 0, 0.625);
+}

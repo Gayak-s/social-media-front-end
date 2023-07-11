@@ -1,0 +1,45 @@
+    <div class="container border">
+        <!-- section -->
+        <div class="row mt-5 d-flex justify-content-center align-items-evenly ">
+            <div style="height: 100vh;" class=" bg_img col-lg-5  ">
+            <img class="" width="100%" height="650px" src="https://media.wired.com/photos/593320cb68cb3b3dc4097ed6/master/w_1600%2Cc_limit/1_partyanimsm2.gif" alt="">
+            </div>
+            <div style="height: 100vh; width: 500px;" class=" ms-5">
+                <div class="text-center border ">
+                    <h3 class=" heading">In da Moment</h3>
+                    <!-- form -->
+                    <form [formGroup]="loginForm" (submit)="login()" class="mt-5 p-5">
+                        <div class="form-floating mb-3">
+                            <input name="username" formControlName="username" type="text" class="form-control" id="username" placeholder="Username">
+                            <label for="username">Username</label>
+                          </div>
+                          <div class="form-floating">
+                            <input name="password" formControlName="password" type="password" class="form-control" id="password" placeholder="Password">
+                            <label for="password">Password</label>
+                          </div>
+                          <div *ngIf="loginFailedStatus">
+                            <h5 class="text-danger mt-2">{{loginFaild}}</h5>
+                          </div>
+                          <button type="submit" class="btn btn-primary mt-3 w-100 rounded-3 fs-5">Log in
+                            <div *ngIf="loginSpinnerStatus" class="spinner-border text-light" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                          </button>
+                    </form>
+                </div>
+                <div class="py-3 d-flex align-items-center">
+                    <hr class="flex-grow-1" />
+                    <div class="ms-2 me-2">OR</div>
+                    <hr class="flex-grow-1"/>
+                </div>
+                <div class="border p-3 text-center">
+                    <p class="signup_para">Dont have an account? <a routerLink="register" class="signup">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="d-flex justify-content-center mt-5 mb-5">
+            <h6 class="copyright"> &copy; 2023 In da Moment from Gayak</h6>
+        </footer>
+    </div>
+

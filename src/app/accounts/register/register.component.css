@@ -1,0 +1,25 @@
+.heading{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.terms_condition{
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.625);
+}
+
+.login{
+    text-decoration: none;
+    color: rgb(0, 106, 255);
+    font-size: 15px;
+}
+
+.login_para{
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+h6{
+    color: rgba(0, 0, 0, 0.625);
+}

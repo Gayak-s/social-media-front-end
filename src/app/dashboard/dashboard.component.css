@@ -1,0 +1,127 @@
+/* .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.btn{
+    font-size: 50px;
+} */
+
+ul {
+
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  position: fixed;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+li {
+  transition: transform 1.05s;
+}
+
+li a {
+  margin-top: 100px;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  color: white;
+}
+
+.logoutlogo {
+  font-size: 40px;
+}
+
+li:hover {
+  transform: scale(1.1)
+}
+
+/* .post_div{
+  border-top: 5px solid red;
+
+} */
+
+
+.profilepic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* feed styles */
+
+.post_pfp {
+  border-radius: 50%;
+  height: 40px;
+  width: 45px;
+}
+
+.post_header {
+  margin-top: 70px;
+  margin-left: 75px;
+}
+
+.post_content {
+  margin-top: 20px;
+  margin-left: 75px;
+}
+
+.post_img {
+  height: 640px;
+  width: 510px;
+  border-radius: 5px;
+}
+
+.post_footer {
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-bottom: 10px;
+  margin-bottom: 3px solid black;
+}
+
+.footer_name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer_caption {
+  font-size: 17px;
+}
+
+hr {
+  margin-left: 50px;
+  width: 550px;
+  border-top: 1.70px solid rgba(28, 28, 28, 0.503);
+  margin-bottom: 50px;
+}
+
+.people_header{
+  margin-top: 50px;
+}
+
+.people_p{
+  color: rgba(0, 0, 0, 0.625);
+
+}
+
+.people_pfp{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.people_name{
+  font-size: 16px;
+}
+
+.footer_para{
+  color: rgba(0, 0, 0, 0.625);
+}

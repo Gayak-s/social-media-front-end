@@ -1,0 +1,18 @@
+button{
+    border: 0;
+    background-color: white;
+    color: rgb(66, 66, 147);
+    font-weight: 450;
+}
+.weight{
+    font-weight: 450;
+ 
+}
+.footer{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+.copyright{
+    color: rgba(0, 0, 0, 0.625);
+}
